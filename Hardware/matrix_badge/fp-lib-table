@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name matrix_badge)(type KiCad)(uri ${KIPRJMOD}/matrix_badge.pretty)(options "")(descr ""))
+)

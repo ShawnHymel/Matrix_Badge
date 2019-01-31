@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name dk_Battery-Holders-Clips-Contacts)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_Battery-Holders-Clips-Contacts.lib)(options "")(descr ""))
+  (lib (name dk_Embedded-Microcontrollers)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_Embedded-Microcontrollers.lib)(options "")(descr ""))
+  (lib (name dk_LED-Indication-Discrete)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_LED-Indication-Discrete.lib)(options "")(descr ""))
+  (lib (name dk_Slide-Switches)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_Slide-Switches.lib)(options "")(descr ""))
+)
