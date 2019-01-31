@@ -48,6 +48,9 @@ Desktop.ini
 # Ignore the first 100 temporary files
 *.0??
 
+# Backup files
+*.kicad_pcb-bak
+*.bak
 
 #############
 ## Python
@@ -102,5 +105,3 @@ pip-log.txt
 ## Misc
 #############
 
-# Notepad++ backup files
-*.bak
