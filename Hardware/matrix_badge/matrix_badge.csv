@@ -1,0 +1,10 @@
+Reference, Quantity, Value, Footprint, Datasheet, Category, DK_Datasheet_Link, DK_Detail_Page, Description, Digi-Key_PN, Family, MPN, Manufacturer, Status
+BT1 ,1,"Battery_Cell","Battery:BatteryHolder_Keystone_3034_1x20mm","~"
+C1 ,1,"4.7uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+C2 ,1,"0.1uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+D1 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D2 D20 D3 D4 D5 D6 D7 D8 D9 ,20,"LTST-C171KRKT","digikey-footprints:0805","http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf","Optoelectronics","http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf","/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800","LED RED CLEAR SMD","160-1427-1-ND","LED Indication - Discrete","LTST-C171KRKT","Lite-On Inc.","Active"
+J1 ,1,"Conn_02x03_Odd_Even","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~"
+R1 ,1,"10k","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+R2 R3 R4 R5 R6 ,5,"82","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+S1 ,1,"JS202011SCQN","digikey-footprints:Switch_Slide_JS202011SCQN","https://www.ckswitches.com/media/1422/js.pdf","Switches","https://www.ckswitches.com/media/1422/js.pdf","/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098","SWITCH SLIDE DPDT 300MA 6V","401-2002-1-ND","Slide Switches","JS202011SCQN","C&K","Active"
+U1 ,1,"ATTINY85-20SU","digikey-footprints:SOIC-8_W5.3mm","http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894","Integrated Circuits (ICs)","http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894","/product-detail/en/microchip-technology/ATTINY85-20SU/ATTINY85-20SU-ND/735470","IC MCU 8BIT 8KB FLASH 8SOIC","ATTINY85-20SU-ND","Embedded - Microcontrollers","ATTINY85-20SU","Microchip Technology","Active"

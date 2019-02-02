@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\sgmustadio\Documents\GitHub\Matrix_Badge\Hardware\matrix_badge\matrix_badge.sch</source>
+    <date>2/2/2019 4:38:15 PM</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Matrix Badge</title>
+        <company/>
+        <rev>v01</rev>
+        <date>2019-01-30</date>
+        <source>matrix_badge.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="creativecommons.org/licenses/by/4.0/"/>
+        <comment number="3" value="License: CC BY 4.0"/>
+        <comment number="4" value="Author: Shawn Hymel"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_3034_1x20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C51FF3B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C51FFA1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C520007</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATTINY85-20SU</value>
+      <footprint>digikey-footprints:SOIC-8_W5.3mm</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/ATTINY85-20SU/ATTINY85-20SU-ND/735470</field>
+        <field name="Description">IC MCU 8BIT 8KB FLASH 8SOIC</field>
+        <field name="Digi-Key_PN">ATTINY85-20SU-ND</field>
+        <field name="Family">Embedded - Microcontrollers</field>
+        <field name="MPN">ATTINY85-20SU</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Embedded-Microcontrollers" part="ATTINY85-20SU" description="IC MCU 8BIT 8KB FLASH 8SOIC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C520119</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>82</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C52043A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>82</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C52052B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>82</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C520553</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>82</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C520579</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>82</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5205A1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5227B6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C522BCE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C52CBAF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C533D2D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C535846</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5376B9</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C539B0A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C539B26</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C539B3C</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C539B53</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C53B616</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C53B632</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C53B648</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C53B65F</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C541011</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54102D</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C541043</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54105A</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54AFAA</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54AFC6</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54AFDC</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LTST-C171KRKT</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT" description="LED RED CLEAR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54AFF3</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>JS202011SCQN</value>
+      <footprint>digikey-footprints:Switch_Slide_JS202011SCQN</footprint>
+      <datasheet>https://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Category">Switches</field>
+        <field name="DK_Datasheet_Link">https://www.ckswitches.com/media/1422/js.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098</field>
+        <field name="Description">SWITCH SLIDE DPDT 300MA 6V</field>
+        <field name="Digi-Key_PN">401-2002-1-ND</field>
+        <field name="Family">Slide Switches</field>
+        <field name="MPN">JS202011SCQN</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Slide-Switches" part="JS202011SCQN" description="SWITCH SLIDE DPDT 300MA 6V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C555EBD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Embedded-Microcontrollers" part="ATTINY85-20SU">
+      <description>IC MCU 8BIT 8KB FLASH 8SOIC</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY85-20SU</field>
+        <field name="Footprint">digikey-footprints:SOIC-8_W5.3mm</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894</field>
+        <field name="Digi-Key_PN">ATTINY85-20SU-ND</field>
+        <field name="MPN">ATTINY85-20SU</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Embedded - Microcontrollers</field>
+        <field name="DK_Datasheet_Link">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/ATTINY85-20SU/ATTINY85-20SU-ND/735470</field>
+        <field name="Description">IC MCU 8BIT 8KB FLASH 8SOIC</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5" type="BiDi"/>
+        <pin num="2" name="PB3" type="BiDi"/>
+        <pin num="3" name="PB4" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0" type="BiDi"/>
+        <pin num="6" name="PB1" type="BiDi"/>
+        <pin num="7" name="PB2" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_LED-Indication-Discrete" part="LTST-C171KRKT">
+      <description>LED RED CLEAR SMD</description>
+      <docs>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LTST-C171KRKT</field>
+        <field name="Footprint">digikey-footprints:0805</field>
+        <field name="Datasheet">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="Digi-Key_PN">160-1427-1-ND</field>
+        <field name="MPN">LTST-C171KRKT</field>
+        <field name="Category">Optoelectronics</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Slide-Switches" part="JS202011SCQN">
+      <description>SWITCH SLIDE DPDT 300MA 6V</description>
+      <docs>https://www.ckswitches.com/media/1422/js.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">JS202011SCQN</field>
+        <field name="Footprint">digikey-footprints:Switch_Slide_JS202011SCQN</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/1422/js.pdf</field>
+        <field name="Digi-Key_PN">401-2002-1-ND</field>
+        <field name="MPN">JS202011SCQN</field>
+        <field name="Category">Switches</field>
+        <field name="Family">Slide Switches</field>
+        <field name="DK_Datasheet_Link">https://www.ckswitches.com/media/1422/js.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098</field>
+        <field name="Description">SWITCH SLIDE DPDT 300MA 6V</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="dk_Embedded-Microcontrollers">
+      <uri>C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_Embedded-Microcontrollers.lib</uri>
+    </library>
+    <library logical="dk_LED-Indication-Discrete">
+      <uri>C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_LED-Indication-Discrete.lib</uri>
+    </library>
+    <library logical="dk_Slide-Switches">
+      <uri>C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_Slide-Switches.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="P2">
+      <node ref="D6" pin="1"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="2" name="P1">
+      <node ref="D3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="3" name="P5">
+      <node ref="D4" pin="2"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="4" name="P3">
+      <node ref="R4" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="5" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(S1-Pad6)">
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="7" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="8" name="P4">
+      <node ref="R5" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="9" name="MOSI">
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="10" name="~RST">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="11" name="VDD">
+      <node ref="S1" pin="2"/>
+      <node ref="S1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="12" name="SCK">
+      <node ref="U1" pin="7"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="13" name="MISO">
+      <node ref="U1" pin="6"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="BT1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R6-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+  </nets>
+</export>
