@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\sgmustadio\Documents\GitHub\Matrix_Badge\Hardware\matrix_badge\matrix_badge.sch)
-    (date "1/30/2019 6:05:25 PM")
+    (date "2/26/2019 8:29:01 PM")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -38,7 +38,7 @@
       (tstamp 5C520007))
     (comp (ref U1)
       (value ATTINY85-20SU)
-      (footprint digikey-footprints:SOIC-8_W5.3mm)
+      (footprint Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm)
       (datasheet http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894)
       (fields
         (field (name Category) "Integrated Circuits (ICs)")
@@ -582,11 +582,11 @@
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical dk_Embedded-Microcontrollers)
-      (uri C:\Users\sgmustadio\Documents\GitHub\digikey-kicad-library\digikey-symbols\dk_Embedded-Microcontrollers.lib))
+      (uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_Embedded-Microcontrollers.lib))
     (library (logical dk_LED-Indication-Discrete)
-      (uri C:\Users\sgmustadio\Documents\GitHub\digikey-kicad-library\digikey-symbols\dk_LED-Indication-Discrete.lib))
+      (uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_LED-Indication-Discrete.lib))
     (library (logical dk_Slide-Switches)
-      (uri C:\Users\sgmustadio\Documents\GitHub\digikey-kicad-library\digikey-symbols\dk_Slide-Switches.lib)))
+      (uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-symbols/dk_Slide-Switches.lib)))
   (nets
     (net (code 1) (name P2)
       (node (ref D6) (pin 1))

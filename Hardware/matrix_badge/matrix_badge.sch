@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:matrix_badge-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -74,7 +75,7 @@ U 1 1 5C520119
 P 3350 3700
 F 0 "U1" H 3578 3603 60  0000 L CNN
 F 1 "ATTINY85-20SU" H 3578 3497 60  0000 L CNN
-F 2 "digikey-footprints:SOIC-8_W5.3mm" H 3550 3900 60  0001 L CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 3550 3900 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894" H 3550 4000 60  0001 L CNN
 F 4 "ATTINY85-20SU-ND" H 3550 4100 60  0001 L CNN "Digi-Key_PN"
 F 5 "ATTINY85-20SU" H 3550 4200 60  0001 L CNN "MPN"
